@@ -144,6 +144,9 @@ form input {
 
 .button-area {
   padding-left: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .button-area a {
@@ -160,4 +163,11 @@ button {
   font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: 2rem;
+}
+
+#message {
+    font-size: 12px;
+    display: inline-block;
+    width: 130px;
+    text-align: center;
 }

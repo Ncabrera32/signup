@@ -37,39 +37,46 @@
                 <fieldset>
                     <div class="form-cell">
                         <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <input type="text" name="first_name" id="first_name"
+                        placeholder="First Name">
                     </div>
                     <div class="form-cell">
                         <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name"
+                        placeholder="Last Name">
                     </div>
                 </fieldset>
                 &nbsp
                 <fieldset>
                     <div class="form-cell">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email"
+                        placeholder="Email">
                     </div>
                     <div class="form-cell">
                         <label for="phone">Phone Number</label>
-                        <input type="text" id="phone" name=" phone">
+                        <input type="text" id="phone" name=" phone"
+                        placeholder="Phone Number">
                     </div>
                 </fieldset>
                 &nbsp
                 <fieldset>
                     <div class="form-cell">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password"
+                         placeholder="Password">
                     </div>
                     <div class="form-cell">
                         <label for="confirm_pw">Confirm Password</label>
-                        <input type="password" id="confirm_pw" name="confirm_pw">
+                        <input type="password" id="confirm_pw" name="confirm_pw"
+                        placeholder="Confirm Password">
                     </div>
                 </fieldset>
+                <p id="message"></p>
             </div>
 
             <div class="button-area">
-                <button type="submit">Create Account</button>
+                <button type="button" onclick="checkPassword()">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </form>
@@ -77,5 +84,6 @@
     </div>
 </div> 
 </div> 
+<script src="script.js"></script>
 </body>
 </html>
